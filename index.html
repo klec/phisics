@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table</title>
+    <script src="app.js"></script>
+    <style type="text/css">
+        BODY {
+            background: #000000;
+        }
+        DIV {
+            border: solid 1px #FFFFFF;
+            display: inline-block;
+        }
+        #elements{
+            width: 100px;
+            height: 750px;
+        }
+        #table{
+            width: 1200px;
+            height: 750px;
+            position: relative;
+            overflow: hidden;
+        }
+        #table span {
+            position: absolute;
+            width: 2px;
+            height: 2px;
+            display: inline-block;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="elements">
+1       <div id="electron"></div>
+1       <div id="proton"></div>
+    </div>
+    <div id="table">
+2
+    </div>
+    <script>
+        table = new Table("table");
+//        table.elements.push(new Electron(500,300,0.1,0));
+//        table.elements.push(new Electron(530,320,0,0.1));
+//        table.elements.push(new Electron(500,320,-0.1,0));
+//        table.elements.push(new Electron(480,320,0,-0.1));
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+//        table.elements.push(new Electron());
+        table.elements.push(new Electron());
+        table.elements.push(new Electron());
+        table.elements.push(new Electron());
+        table.elements.push(new Electron());
+        table.elements.push(new Electron());
+        table.elements.push(new Electron());
+    </script>
+</body>
+</html>
